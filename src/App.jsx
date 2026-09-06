@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <Navbar cold={coin} ></Navbar>
+      <Navbar coin={coin} ></Navbar>
       <Banner></Banner>
       <Suspense fallback ={<span className="loading loading-spinner loading-xl"></span>} >
           <Players playerPromise={playerPromise} setCoin= {setCoin} ></Players>
