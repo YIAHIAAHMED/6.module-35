@@ -20,7 +20,7 @@ function App() {
       <Navbar coin={coin} ></Navbar>
       <Banner></Banner>
       <Suspense fallback ={<span className="loading loading-spinner loading-xl"></span>} >
-          <Players playerPromise={playerPromise} setCoin= {setCoin} ></Players>
+          <Players playerPromise={playerPromise} setCoin= {setCoin} coin={coin} ></Players>
       </Suspense>
     
     </>

@@ -8,7 +8,7 @@
     "role": "All-Rounder",
     "battingStyle": "Left Handed",
     "bowlingStyle": "Left-arm Orthodox",
-    "price": 12000000
+    "price": 1200000
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "role": "Batter",
     "battingStyle": "Right Handed",
     "bowlingStyle": "Right-arm Medium",
-    "price": 15000000
+    "price": 150
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "role": "Batter",
     "battingStyle": "Right Handed",
     "bowlingStyle": "Right-arm Off Break",
-    "price": 13000000
+    "price": 130
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "role": "Bowler",
     "battingStyle": "Right Handed",
     "bowlingStyle": "Right-arm Fast",
-    "price": 11000000
+    "price": 110
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "role": "All-Rounder",
     "battingStyle": "Right Handed",
     "bowlingStyle": "Right-arm Leg Break",
-    "price": 10000000
+    "price": 100
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "role": "Bowler",
     "battingStyle": "Left Handed",
     "bowlingStyle": "Left-arm Fast Medium",
-    "price": 7000000
+    "price": 700
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "role": "Batter",
     "battingStyle": "Right Handed",
     "bowlingStyle": "Right-arm Leg Break",
-    "price": 12500000
+    "price": 125
   },
   {
     "id": 8,
@@ -85,6 +85,6 @@
     "role": "Batter",
     "battingStyle": "Right Handed",
     "bowlingStyle": "Right-arm Medium",
-    "price": 11500000
+    "price": 115
   }
 ]
