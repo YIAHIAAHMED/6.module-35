@@ -22,12 +22,14 @@ const SelectedPlayers = ({
         <div>
             <div className='space-y-4'>
                 {
-                    selectedPlayers ===0?
-                    <div>
-                        <h2>hello </h2>
+                    selectedPlayers.length ===0?
+                    <div className='h-[400px] flex justify-center items-center flex-col gap-4 '>
+                        <h2 className='font-semibold text-xl'>No Players Selected yet </h2>
+                        <p>Go to Available tab to select players</p>
                      </div>
-                    :
-                    selectedPlayers.map((player, index) => {
+
+                    
+                     : selectedPlayers.map((player, index) => {
                         return (
                             <div key={index} className='flex items-center gap-6 justify-between p-10 rounded-2xl border' >
                                 <div className='flex items-center gap-6'>
