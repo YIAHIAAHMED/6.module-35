@@ -22,6 +22,11 @@ const SelectedPlayers = ({
         <div>
             <div className='space-y-4'>
                 {
+                    selectedPlayers ===0?
+                    <div>
+                        <h2>hello </h2>
+                     </div>
+                    :
                     selectedPlayers.map((player, index) => {
                         return (
                             <div key={index} className='flex items-center gap-6 justify-between p-10 rounded-2xl border' >
